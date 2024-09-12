@@ -120,8 +120,7 @@ export default function Countdown() {
             placeholder="Enter duration in seconds"
             value={duration}
             onChange={handleDurationChange}
-            className="flex-1 mr-4 rounded-md border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200"
-          />
+            className="flex-1 mr-4 rounded-md border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-200"/>
           <Button
             onClick={handleSetDuration}
             variant="outline"
